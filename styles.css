@@ -91,3 +91,37 @@ body{
     bottom: -4px;
     left: 20px;
 }
+
+
+/*homepage*/
+#hero{
+    background-image: url("image/bac.jpg");
+    height: 90vh;
+    width: 100%;
+    background-position: top 5%  right 100%;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+       
+}
+
+#hero h4{
+    padding-bottom: 15px;
+}
+
+#hero h1{
+    color: #088178;
+}
+
+#hero button{
+    font-weight: 700;
+    font-size: 18px;
+    color: #088178;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px 15px;
+    border: 1px solid #088178;
+    border-radius: 30px;
+}
